@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://db.onlinewebfonts.com/c/d162a260eb6b9b288f54503ee22aa9ff?family=Quincy+CF')
+
+body{
+}
+@font-face {font-family: "Quincy CF"; src: url("//db.onlinewebfonts.com/t/d162a260eb6b9b288f54503ee22aa9ff.eot"); src: url("//db.onlinewebfonts.com/t/d162a260eb6b9b288f54503ee22aa9ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d162a260eb6b9b288f54503ee22aa9ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d162a260eb6b9b288f54503ee22aa9ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/d162a260eb6b9b288f54503ee22aa9ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d162a260eb6b9b288f54503ee22aa9ff.svg#Quincy CF") format("svg"); }
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+  
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 120%;
+  border: 3px solid #7a942e;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #7a942e;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #7a942e;
+  background: #7a942e;
+  text-align: center;
+  color: #7a942e;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 40%;
+  position: absolute;
+  top: 7%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.topNav ul {
+  list-style-type: none;
+  font-family: Montserrat;
+  color: #7a942e;
+}
+
+.topNav li, .topNav a {
+    display:inline-block;
+    position: relative;
+    left: 6%;
+    width: 200px;
+    text-decoration: none;
+    color: #7a942e;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: #E5E0E8;
+}
+
+a{
+  font-family: Quincy CF;
+  color: #525078;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1{
+  color: #525078;
+  font-family: Quincy CF;
+  position: relative;
+  left: 10%;
+}
+
+h2,h3{
+  color: #334222;
+  font-family: Quincy CF;
+  position: relative;
+  left: 10%;
+}
+
+p{
+  color: #334222;
+  font-family: Montserrat;
+  position: relative;
+  left: 10%;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 76%;
+}
+
+.arrowleft{
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 35vh;
+  left: 5%;
+}
+
+.arrowright{
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 35vh;
+  left: 90%;
+  right: 10%;
+  transform: rotate(180deg);
+}
+
+.homeimage{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 80vh;
+  border-radius: 25px;
+  position: relative;
+  left: 10%;
+}
+
+.insecuritiesimage{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 80vh;
+  border-radius: 25px;
+  position: relative; 
+  left: 10%;
+}
+
+.selfloveimage{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 80vh;
+  border-radius: 25px;
+  position: relative; 
+  left: 10%;
+}
+
+.tipsimage{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 80vh;
+  border-radius: 25px;
+  position: relative; 
+  left: 10%;
+}
+
+.halloffameimage{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 80vh;
+  border-radius: 25px;
+  position: relative; 
+  left: 10%;
+}
